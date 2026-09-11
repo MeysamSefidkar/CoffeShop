@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'estedad';
+    src: url("../fonts/Estedad-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'vazirmatn';
+    src: url("../fonts/Vazirmatn-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'playfair';
+    src: url("../fonts/PlayfairDisplay-Italic.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+/*-- Header --*/
+
+.header-area {
+    width: 100%;
+    background-color: #1B120D;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 40px 50px;
+
+}
+
+.logo {
+    font-family: 'playfair', cursive;
+    font-weight: 800;
+    font-size: 35px;
+    color: #ffffff;
+}
+
+.logo i {
+    color: #A66A3F;
+    padding-right: 15px;
+}
+
+.icons {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.icons i {
+    padding-right: 25px;
+}
+
+.menu {
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'vazirmatn', cursive;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner-img img {
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+}
+
+.banner-text h3 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: 'estedad', cursive;
+}
+
+.banner-text h1 {
+    color: #fff21f;
+    font-family: 'estedad', cursive;
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 30px;
+}
+
+.banner-text p {
+    color: #afafaf;
+    font-family: 'estedad', cursive;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.header-btn {
+    font-family: 'estedad', cursive;
+    background-color: red;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
