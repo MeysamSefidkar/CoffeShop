@@ -192,19 +192,51 @@
     margin-top: 50px;
 }
 
-.card-about {
-    width: 40%;
+.card-text-about {
+    width: 50%;
     background-color: #1B120D;
     color: white;
     font-family: 'vazirmatn', cursive;
     font-weight: bold;
     font-size: 15px;
     height: 250px;
+    padding: 20px 40px;
+    position: absolute;
+    top: 90px;
+    right: 650px;
+    border-radius: 5px;
+}
+
+.card-text-about h4 {
+    color: #f5c035;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.card-text-about h1 {
+    font-family: 'playfair', cursive;
+    margin-bottom: 20px;
+}
+
+.card-text-about i {
+    color: #f5c035;
+    padding-right: 10px;
+}
+
+.card-text-about p {
+    color: #afafaf;
+    line-height: 1.7rem;
 }
 
 .img-card-about {
-    width: 100%;
+    width: 79%;
+    position: relative;
+    padding-right: 42px;
 }
+
+
+
+
 
 
 
