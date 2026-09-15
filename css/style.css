@@ -132,3 +132,79 @@
     border-radius: 5px;
     margin-top: 50px;
 }
+
+/*-- Main Content --*/
+
+.main-content {
+    margin: 70px auto;
+    width: 80%;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-card {
+    width: 80%;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.text-img {
+    position: absolute;
+    font-family: 'vazirmatn', cursive;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text-img button {
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-family: 'vazirmatn', cursive;
+    font-size: 15px;
+    padding: 15px 30px;
+}
+
+.img-card-about {
+    width: 70%;
+}
+
+.main-about {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.card-about {
+    width: 40%;
+    background-color: #1B120D;
+    color: white;
+    font-family: 'vazirmatn', cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 250px;
+}
+
+.img-card-about {
+    width: 100%;
+}
+
+
+
