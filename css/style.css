@@ -51,10 +51,16 @@
 .icons {
     color: #ffffff;
     font-size: 25px;
-}
+    }
 
 .icons i {
     padding-right: 25px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #f5c035;
 }
 
 .menu {
@@ -78,6 +84,11 @@
     font-weight: 600;
     font-size: 18px;
     padding: 0 20px;
+    transition:all 0.3s ease-in-out;
+}
+
+.nav-links li a:hover {
+    color: #f5c035;
 }
 
 .banner {
@@ -131,6 +142,12 @@
     border: none;
     border-radius: 5px;
     margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-btn:hover {
+    background-color: #a60000;
 }
 
 /*-- Main Content --*/
@@ -180,6 +197,7 @@
     font-family: 'vazirmatn', cursive;
     font-size: 15px;
     padding: 15px 30px;
+    border-radius: 5px;
 }
 
 .img-card-about {
@@ -234,8 +252,40 @@
     padding-right: 42px;
 }
 
+.our-product-area {
+    margin-top: 60px;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+}
 
+.our-product {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
 
+.our-product i {
+    color: #f5c035;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.our-product-title{
+    font-family: 'vazirmatn', cursive;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.our-product-description{
+    font-family: 'vazirmatn', cursive;
+    color: #afafaf;
+    font-size: 20px;
+}
 
 
 
