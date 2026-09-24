@@ -51,7 +51,7 @@
 .icons {
     color: #ffffff;
     font-size: 25px;
-    }
+}
 
 .icons i {
     padding-right: 25px;
@@ -84,7 +84,7 @@
     font-weight: 600;
     font-size: 18px;
     padding: 0 20px;
-    transition:all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .nav-links li a:hover {
@@ -254,7 +254,7 @@
 
 .our-product-area {
     margin-top: 60px;
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: right;
 }
@@ -271,7 +271,7 @@
     margin-bottom: 20px;
 }
 
-.our-product-title{
+.our-product-title {
     font-family: 'vazirmatn', cursive;
     display: flex;
     justify-content: right;
@@ -281,12 +281,130 @@
     margin-bottom: 20px;
 }
 
-.our-product-description{
+.our-product-description {
     font-family: 'vazirmatn', cursive;
     color: #afafaf;
     font-size: 20px;
 }
 
+.our-products-carusel {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.our-products-carusel img {
+    width: 100%;
+}
+
+.card-product {
+    width: 250px;
+    height: 250px;
+    background-color: #afafaf;
+    margin: 20px;
+}
+
+.card-product img {
+    padding: 30px 20px;
+}
+
+/*-- Special --*/
+
+.photo-area {
+    display: flex;
+    position: relative;
+}
+
+.photo-area img {
+    width: 50%;
+    margin-left: 40px;
+}
+
+.special-text {
+    width: 50%;
+    padding: 40px 80px;
+}
+
+.special-text h2 {
+    color: #1B120D;
+    font-family: 'vazirmatn', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.special-text p {
+    color: #afafaf;
+    line-height: 1.7rem;
+    font-size: 15px;
+    font-family: 'vazirmatn', cursive;
+    margin: 20px 0;
+}
+
+.special-text h3 {
+    font-family: 'vazirmatn', cursive;
+    color: #f5c035;
+}
+
+.special-text button {
+    background-color: red;
+    color: white;
+    font-family: 'vazirmatn', cursive;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.photo-area2 {
+    display: flex;
+}
+
+.special-text2 {
+    margin-top: 50px;
+    width: 60%;
+    height: 620px;
+    background-color: #1B120D;
+    color: white;
+    margin-right: 200px;
+    padding: 40px 80px 40px 420px;
+}
+
+.special-text2 h3 {
+    color: #f5c035;
+    font-family: 'vazirmatn', cursive;
+}
+
+.special-text2 h2 {
+    font-family: 'vazirmatn', cursive;
+margin-top: 20px;
+    font-size: 30px;
+}
+
+.special-text2 p {
+    margin-top: 20px;
+    color: #afafaf;
+    line-height: 2.3rem;
+    font-size: 15px;
+    font-family: 'vazirmatn', cursive;
+}
+
+.photo-area2 img {
+    width: 50%;
+    position: absolute;
+    left: 0;
+    top: 2900px;
+}
 
 
-
+.special-text2 button {
+    background-color: red;
+    color: white;
+    font-family: 'vazirmatn', cursive;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+}
