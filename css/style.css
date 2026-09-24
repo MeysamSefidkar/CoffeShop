@@ -378,7 +378,7 @@
 
 .special-text2 h2 {
     font-family: 'vazirmatn', cursive;
-margin-top: 20px;
+    margin-top: 20px;
     font-size: 30px;
 }
 
@@ -407,4 +407,85 @@ margin-top: 20px;
     border: none;
     border-radius: 5px;
     margin-top: 50px;
+}
+
+/*-- About and Contact US*/
+
+.about {
+    display: flex;
+    width: 80%;
+    margin: 120px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.blog h2 {
+    font-family: 'vazirmatn', cursive;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+}
+
+.blog p {
+    color: #afafaf;
+    line-height: 1.7rem;
+    font-size: 15px;
+    font-family: 'vazirmatn', cursive;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.blog button {
+    font-family: 'vazirmatn', cursive;
+    border-radius: 5px;
+    margin: 30px auto;
+    font-size: 20px;
+    background-color: inherit;
+    padding: 15px 40px;
+    border-color: #afafaf;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.contact-us h2 {
+    font-family: 'vazirmatn', cursive;
+    font-weight: 800;
+    font-size: 35px;
+    text-align: center;
+    line-height: 3.7rem;
+}
+
+.contact-us input {
+    width: 60%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 30px 10px;
+}
+
+.contact-us input::placeholder {
+    font-family: 'vazirmatn', cursive;
+    font-size: 15px;
+}
+
+.send button i {
+    color: white;
+    background-color: red;
+    font-size: 35px;
+    border-radius: 5px;
+}
+
+.send {
+    display: flex;
+
 }
