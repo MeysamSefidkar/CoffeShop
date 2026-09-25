@@ -24,7 +24,7 @@
 
 .header-area {
     width: 100%;
-    background-color: #1B120D;
+    background-color: #2a2a27;
 }
 
 .navbar {
@@ -412,11 +412,12 @@
 /*-- About and Contact US*/
 
 .about {
+
     display: flex;
     width: 80%;
     margin: 120px auto;
-    align-items: center;
-    justify-content: center;
+    align-items: start;
+    justify-content: space-between;
 }
 
 .blog {
@@ -469,23 +470,122 @@
     width: 60%;
     height: 50px;
     border-radius: 5px;
-    margin-top: 50px;
+    margin-top: 45px;
     padding: 30px 10px;
+    background-color: #f1f1f1;
+    border: none;
+    font-family: 'vazirmatn', cursive;
+    font-size: 20px;
+
+
 }
 
 .contact-us input::placeholder {
     font-family: 'vazirmatn', cursive;
     font-size: 15px;
+    color: #afafaf;
 }
 
 .send button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 58px;
+    height: 58px;
     color: white;
     background-color: red;
     font-size: 35px;
     border-radius: 5px;
+    position: absolute;
+    top: 46px;
+    right: 42px;
 }
 
 .send {
+    position: relative;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
+/*-- Footer --*/
+
+footer {
+    background-color: #131310;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+}
+
+.icons-footer{
+    margin-top: 50px;
+}
+
+.footer-part1 {
+    width: 20%;
+    padding-left: 35px;
+}
+
+.name-footer {
+    color: white;
+    font-family: 'playfair', cursive;
+    font-size: 35px;
+    line-height: 6rem;
+    }
+
+.name-footer i {
+    color: #f5c035;
+    padding-right: 10px;
+}
+
+.footer-part1 p {
+    font-family: 'vazirmatn', cursive;
+    font-size: 15px;
+    color: #afafaf;
+    line-height: 3rem;
+}
+
+.list-footer1 li {
+    font-family: 'vazirmatn', cursive;
+    padding-right: 20px;
+    color: #afafaf;
+    list-style-type: none;
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+.footer-part2 {
+    width: 20%;
+}
+
+.list-footer2 li {
+    font-family: 'vazirmatn', cursive;
+    line-height: 3rem;
+    color: #afafaf;
+    padding-right: 20px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.footer-part3 {
+    width: 20%;
+}
+
+.list-footer3 li {
+    font-family: 'vazirmatn', cursive;
+    line-height: 3rem;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+}
+
+.list-footer3 li i {
+    color: #f5c035;
+    padding-left: 10px;
+}
+
+.footer-part4 {
+    width: 20%;
 }
